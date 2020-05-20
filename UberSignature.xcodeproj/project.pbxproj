@@ -14,6 +14,12 @@
 		9AF7886024759DDE001E0791 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7885A24759DDE001E0791 /* CGPoint+Extensions.swift */; };
 		9AF7886124759DDE001E0791 /* SignatureBezierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7885B24759DDE001E0791 /* SignatureBezierProvider.swift */; };
 		9AF7886224759DDE001E0791 /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7885C24759DDE001E0791 /* SignatureDrawingViewController.swift */; };
+		9AF7886A2475A1E2001E0791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF788692475A1E2001E0791 /* AppDelegate.swift */; };
+		9AF7886C2475A1E2001E0791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7886B2475A1E2001E0791 /* SceneDelegate.swift */; };
+		9AF788712475A1E2001E0791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF7886F2475A1E2001E0791 /* Main.storyboard */; };
+		9AF788732475A1E3001E0791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF788722475A1E3001E0791 /* Assets.xcassets */; };
+		9AF788762475A1E3001E0791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF788742475A1E3001E0791 /* LaunchScreen.storyboard */; };
+		9AF7887C2475A218001E0791 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7887B2475A218001E0791 /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +32,25 @@
 		9AF7885A24759DDE001E0791 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		9AF7885B24759DDE001E0791 /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
 		9AF7885C24759DDE001E0791 /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingViewController.swift; sourceTree = "<group>"; };
+		9AF788672475A1E2001E0791 /* UberSignatureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberSignatureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF788692475A1E2001E0791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AF7886B2475A1E2001E0791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AF788702475A1E2001E0791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AF788722475A1E3001E0791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF788752475A1E3001E0791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AF788772475A1E3001E0791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF7887B2475A218001E0791 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Examples/DemoViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9AF7884724759D93001E0791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF788642475A1E2001E0791 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				9AF7884C24759D93001E0791 /* UberSignature */,
+				9AF788682475A1E2001E0791 /* UberSignatureExample */,
 				9AF7884B24759D93001E0791 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				9AF7884A24759D93001E0791 /* UberSignature.framework */,
+				9AF788672475A1E2001E0791 /* UberSignatureExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +110,20 @@
 			path = Internal;
 			sourceTree = "<group>";
 		};
+		9AF788682475A1E2001E0791 /* UberSignatureExample */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7887B2475A218001E0791 /* DemoViewController.swift */,
+				9AF788692475A1E2001E0791 /* AppDelegate.swift */,
+				9AF7886B2475A1E2001E0791 /* SceneDelegate.swift */,
+				9AF7886F2475A1E2001E0791 /* Main.storyboard */,
+				9AF788722475A1E3001E0791 /* Assets.xcassets */,
+				9AF788742475A1E3001E0791 /* LaunchScreen.storyboard */,
+				9AF788772475A1E3001E0791 /* Info.plist */,
+			);
+			path = UberSignatureExample;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -119,16 +156,37 @@
 			productReference = 9AF7884A24759D93001E0791 /* UberSignature.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9AF788662475A1E2001E0791 /* UberSignatureExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF788782475A1E3001E0791 /* Build configuration list for PBXNativeTarget "UberSignatureExample" */;
+			buildPhases = (
+				9AF788632475A1E2001E0791 /* Sources */,
+				9AF788642475A1E2001E0791 /* Frameworks */,
+				9AF788652475A1E2001E0791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberSignatureExample;
+			productName = UberSignatureExample;
+			productReference = 9AF788672475A1E2001E0791 /* UberSignatureExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9AF7884124759D93001E0791 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = com.ggx;
 				TargetAttributes = {
 					9AF7884924759D93001E0791 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					9AF788662475A1E2001E0791 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -147,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				9AF7884924759D93001E0791 /* UberSignature */,
+				9AF788662475A1E2001E0791 /* UberSignatureExample */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +215,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF788652475A1E2001E0791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF788762475A1E3001E0791 /* LaunchScreen.storyboard in Resources */,
+				9AF788732475A1E3001E0791 /* Assets.xcassets in Resources */,
+				9AF788712475A1E2001E0791 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +244,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AF788632475A1E2001E0791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF7886A2475A1E2001E0791 /* AppDelegate.swift in Sources */,
+				9AF7886C2475A1E2001E0791 /* SceneDelegate.swift in Sources */,
+				9AF7887C2475A218001E0791 /* DemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AF7886F2475A1E2001E0791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF788702475A1E2001E0791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF788742475A1E3001E0791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF788752475A1E3001E0791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9AF7885024759D93001E0791 /* Debug */ = {
@@ -348,6 +446,44 @@
 			};
 			name = Release;
 		};
+		9AF788792475A1E3001E0791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JUQVGN6E2J;
+				INFOPLIST_FILE = UberSignatureExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gogovan.UberSignatureExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF7887A2475A1E3001E0791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JUQVGN6E2J;
+				INFOPLIST_FILE = UberSignatureExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gogovan.UberSignatureExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -365,6 +501,15 @@
 			buildConfigurations = (
 				9AF7885324759D93001E0791 /* Debug */,
 				9AF7885424759D93001E0791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF788782475A1E3001E0791 /* Build configuration list for PBXNativeTarget "UberSignatureExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF788792475A1E3001E0791 /* Debug */,
+				9AF7887A2475A1E3001E0791 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
